@@ -1,9 +1,7 @@
 import React from 'react'
 
 const PasswordUpdate = () => {
-  return (
-    <div>PasswordUpdate</div>
-  )
+  return <div>PasswordUpdate</div>
 }
 
 export default PasswordUpdate

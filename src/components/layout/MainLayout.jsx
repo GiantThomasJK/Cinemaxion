@@ -1,5 +1,6 @@
-import { Box } from "@mui/system";
-import React from "react";
+import { Box } from '@mui/system'
+import { Outlet } from 'react-router-dom'
+import React from 'react'
 
 const MainLayout = () => {
   return (
@@ -7,26 +8,23 @@ const MainLayout = () => {
       {/*global loading*/}
       {/*global loading*/}
 
-      {/*global loading*/}
-      {/*global loading*/}
-      <Box display={"flex"} minHeight="100vh">
+      {/*login modal*/}
+      {/*login modal*/}
+      <Box display={'flex'} minHeight='100vh'>
         {/* header */}
         {/* header */}
 
         {/* main */}
-        <Box
-          component="main"
-          flexGrow={1}
-          overflow="hidden"
-          minHeight="100vh"
-        ></Box>
+        <Box component='main' flexGrow={1} overflow='hidden' minHeight='100vh'>
+          <Outlet />
+        </Box>
         {/* main */}
       </Box>
 
-      {/* main */}
-      {/* main */}
+      {/* footer */}
+      {/* footer */}
     </>
-  );
-};
+  )
+}
 
-export default MainLayout;
+export default MainLayout

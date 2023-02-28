@@ -1,9 +1,7 @@
 import React from 'react'
 
 const MediaSearch = () => {
-  return (
-    <div>MediaSearch</div>
-  )
+  return <div>MediaSearch</div>
 }
 
 export default MediaSearch
